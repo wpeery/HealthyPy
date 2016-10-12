@@ -97,7 +97,7 @@ class IDSearch1:
     """Search for an ID of a food and store previous searches"""
 
     def __init__(self):
-        self.gov_api_key = "9ZH2gqcl0QxJfd7aqlhaeIdckvl0ha3qFWnHtVUH"
+        self.gov_api_key = "XXXXXX" # api key goes here
         self.tmpFoodDictionary = {} # offset : ndbno (FoodID)
         self.foodHistory = {} # foodsearched : ndbno (contains a history of foods consumed)
   
@@ -279,6 +279,7 @@ def Main():
         RESET()
     
     ##TODO
+        # seperate out classes
         # WRITE COMMENTS
         # SORT DICTIONARIES AND LISTS
         # PUT A SPACE IN BETWEEN EACH NUTRIENT WHEN LISTING
