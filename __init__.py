@@ -8,7 +8,7 @@ class NutrientLib1:
     """Can act as a day or week to store nutrients consumed"""
 
     def __init__(self):
-        self.gov_api_key = "9ZH2gqcl0QxJfd7aqlhaeIdckvl0ha3qFWnHtVUH"
+        self.gov_api_key = "XXXXXXXXX" # your api key goes here
         self.nutrientDictionary = {} # name:quantity
         self.unitDictionary = {} # name of nutrient : unit
         self.jsonDictionary = {} # foodID : json of page
